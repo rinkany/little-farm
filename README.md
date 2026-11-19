@@ -1,2 +1,12 @@
-# little-farm
-A small 2D farming game built with Godot and GDScript.
+# Little Farm · 小小农场
+
+以种田、收获和小镇生活为核心的 2D 单机农场小游戏，计划使用 Godot 4 和 GDScript 开发。
+
+当前是**设计与逻辑原型阶段**：没有完整可运行游戏、场景、美术或导出包，示例尚未经过 Godot 运行验证。
+
+- [完整游戏开发规划](docs/GAME_PLAN.md)：玩法、五种作物、技术栈、架构、背包、存档、里程碑与验收。
+- [农田单元格 GDScript 原型](scripts/farming/crop_tile.gd)：翻地、播种、浇水、过夜生长与收获。
+
+首个目标：完成“购买种子 → 翻地播种 → 浇水 → 过夜 → 收获 → 出售”的可玩闭环。
+
+题材参考农场生活模拟，角色、地图、音乐和素材使用原创或许可明确的资源。
